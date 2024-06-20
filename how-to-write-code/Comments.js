@@ -9,4 +9,11 @@
    multi-line
    comments. */
 
+   // Hopefully I am writing a note correctly.
+
+   console.log("I did it!  I added comments to the project :)")
+
    console.log("Comments make your code more readable by others.");
+
+   
+console.log("Coding Rocks");
