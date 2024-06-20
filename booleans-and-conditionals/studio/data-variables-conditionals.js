@@ -62,7 +62,4 @@ console.log("Total Mass: " + totalMassKg);
 console.log("Fuel Temperature: " + fuelTempCelsius);
 console.log("Weather Status: " + weatherStatus);
  
-if (preparedForLiftOff = true) {
-    console.log("Have a safe trip, Astronauts!")
-    
-}
+preparedForLiftOff = true ? console.log("Have a safe trip, Astronauts!") : console.log("Launch Failed :("); 
