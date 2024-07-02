@@ -5,4 +5,18 @@ let nums3 = [200, 5, 4, 10, 8, 5, -3.3, 4.4, 0];
 
 //Sort each array in ascending order.
 
+let arrayName = nums1;
+
+let sortedArray = arrayName.sort(function(a, b){return a-b});
+
+console.log(sortedArray);
+console.log(sortedArray);
+console.log(sortedArray);
+
 //Sort each array in descending order.
+
+let revSortedArray = arrayName.sort(function(a, b){return b-a});
+
+console.log(revSortedArray);
+console.log(revSortedArray);
+console.log(revSortedArray);
