@@ -2,9 +2,10 @@
    "name": "unit-testing",
    "version": "1.0.0",
    "description": "",
-   "main": "processor.js",
+   "main": "index.js",
    "scripts": {
-     "test": "jest"
+     "test": "jest",
+     "coverage" : "jest --collect-coverage"
    },
    "author": "",
    "license": "ISC",
