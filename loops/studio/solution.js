@@ -20,7 +20,7 @@ function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
 for (let i = 0; i < numMeals; i++) {
     let meal = [];
     for (let j = 0; j < pantry.length; j++) {
-      meal.push(pantry[j][i]);  //Loop through this damn array
+      meal.push(pantry[j][i]);
     }
     meals.push(meal);
 
