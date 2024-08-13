@@ -13,4 +13,19 @@
     padding: 5px;
     margin-bottom: 20px;
     border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(75, 75, 75, 0.392);
+    background-color: white;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(rgb(255, 197, 88), rgb(0, 0, 148));
 }
